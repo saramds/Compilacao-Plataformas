@@ -1,6 +1,6 @@
 # Compilacao de Planilhas - Exemplo Plataformas
 
-Criação de uma macro que preencha as abas dos meses de acordo com as plataformas.
+Criação de uma macro que preencha as abas dos meses de acordo com as plataformas de petróleo.
 
 A macro consulta os volumes extraídos na aba 'Base'. 
 
