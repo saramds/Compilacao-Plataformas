@@ -9,7 +9,7 @@ If aba.Index > 1 Then
 
     aba.Activate
     
-    Range("B2:H10000").ClearContents
+    Range("B2:H1048576").ClearContents
     
 End If
 
