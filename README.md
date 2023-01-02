@@ -1,17 +1,13 @@
 # Compilacao de Planilhas - Exemplo Plataformas
 
-Dividir uma base de dados
+Criação de uma macro que preencha as abas dos meses de acordo com as plataformas.
 
-Criação de uma macro que preencha as abas das concessionárias de acordo com as vendas.
+A macro consulta os volumes extraídos na aba 'Base'. 
 
-A macro consulta todas as concessionárias existentes na aba 'Concessionárias'. 
+O objetivo é que a macro copie os volumes extraídos de cada plataforma e cole na aba do seu respectivo mês.
 
-Todas as vendas da história da empresa estão descritas na aba 'Resumo'. 
+É importante lembrar que, no início, os dados das abas dos meses são limpos antes de colarmos as novas informações.
 
-O objetivo é que a macro filtre as vendas de cada concessionária e copie e cole na aba específica dessa concessionária.
-
-Antes de começar a macro, o usuário confirma se realmente deseja executá-la, por meio de uma MsgBox, e também informa se deseja compilar as vendas dos carros novos ou usados, por meio de uma InputBox. 
-
-É importante lembrar que, no início, os dados das tabelas são limpos antes de colarmos as novas informações
+Mas o usuário também pode limpar os dados clicando no botão 'Limpar Base'. 
 
 Vídeo do código em funcionamento: 
