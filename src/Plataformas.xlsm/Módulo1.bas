@@ -1,7 +1,7 @@
-Attribute VB_Name = "Módulo1"
+Attribute VB_Name = "MÃ³dulo1"
 Sub compilacao_plataformas()
 
-'Recursos de otimização da macro
+'Recursos de otimizaÃ§Ã£o da macro
 
 Application.ScreenUpdating = False
 
@@ -19,11 +19,13 @@ For Each aba In ThisWorkbook.Sheets
 
 Next
 
+'Vai para a aba principal
+
 Sheets("Base").Activate
 
 linha = 2
 
-'Captura as informações do mês, plataforma e volume da aba 'Base'
+'Captura as informaÃ§Ãµes do mÃªs, plataforma e volume da aba 'Base'
 
 Do Until Cells(linha, 1).Value = ""
 
@@ -37,11 +39,11 @@ Do Until Cells(linha, 1).Value = ""
     
     coluna_plataforma = Sheets(mes).Cells.Find(plataforma).Column
     
-    'Descobre última linha vazia, que será preenchida
+    'Descobre Ãºltima linha vazia, que serÃ¡ preenchida
     
     linha_plataforma = Sheets(mes).Cells(1048576, coluna_plataforma).End(xlUp).Row + 1
     
-    'Escreve a informação do volume extraído
+    'Escreve a informaÃ§Ã£o do volume extraÃ­do
     
     Sheets(mes).Cells(linha_plataforma, coluna_plataforma).Value = volume_extraido
     
