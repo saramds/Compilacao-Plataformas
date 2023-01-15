@@ -8,6 +8,6 @@ O objetivo é que a macro copie os volumes extraídos de cada plataforma e cole 
 
 É importante lembrar que, no início, os dados das abas dos meses são limpos antes de colarmos as novas informações.
 
-Mas o usuário também pode limpar os dados clicando no botão 'Limpar Base'. 
+Mas o usuário também pode limpar os dados clicando no botão 'Limpar Base', que ativa a macro 'limpar_abas'. 
 
 Vídeo do código em funcionamento: https://youtu.be/EG2kkmG_B-0
